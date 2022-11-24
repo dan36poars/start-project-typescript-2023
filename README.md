@@ -24,7 +24,7 @@ or
     $ yarn build
 ```
 
-Alias Paths are:
+Path alias are:
 
 @controller \
 @models \
