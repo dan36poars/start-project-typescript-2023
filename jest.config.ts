@@ -5,8 +5,8 @@ export default {
     roots: ['<rootDir>/src'],
     collectCoverageFrom: [
         '<rootDir>/src/**/*.ts',
-        // '!<rootDir>/src/**',
-        // '!**test**/**',
+        '!<rootDir>/src/**',
+        '!**test**/**',
     ],
     coverageDirectory: 'covarage',
     transform: {
